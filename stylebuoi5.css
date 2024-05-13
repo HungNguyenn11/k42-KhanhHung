@@ -1,0 +1,139 @@
+.header{
+    display: flex;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.logo{
+    background-color: red;
+    width: 30%;
+    height: 100px;
+    margin-right: 10px;
+}
+.banner{
+    background-color: aqua;
+    width: 80%;
+}
+.menu{
+    background-color: yellowgreen;
+    height: 40px;
+    display: flex;
+    padding-top: 10px;
+}
+.mennu1{
+    margin-right: 300px;
+}
+.search{
+    margin-left: 850px;
+    border-radius: 60%;
+   
+}
+.body{
+    display: flex;
+}
+.bodyleft{
+    padding-top: 10px;
+    width: 15%; 
+    text-align: center;
+}
+.bodyleft1{
+    background-color: grey;
+    margin-bottom: 10px;
+    padding: 70px;
+}
+.bodyleft2{
+    background-color: brown;
+    padding: 50px;
+    height: 20%;    
+}
+.bodymidhead{
+    display: flex;
+    text-align: center;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.bodymid1{
+    background-color: hotpink;
+    margin-right: 10px;
+    width: 400px;
+    height: 300px;
+}
+.bodymid2{
+    background-color: aquamarine;
+    margin-right: 10px;
+    width: 400px;
+    height: 300px;
+   
+}
+.bodymidbody{
+    padding-top: 10px;
+    padding-left: 10px;
+    text-align: center;
+}
+.bodymidbody1{
+    display: flex;
+}
+.body1{
+    background-color: blanchedalmond;
+    width: 32%;
+    height: 120px;
+    margin-right: 10px;
+}
+.body2{
+    background-color: gainsboro;
+    width: 32%;
+    height: 120px;
+    margin-right: 10px;
+}
+.body3{
+    background-color: gold;
+    width: 32%;
+    height: 120px;
+}
+.bodymidbody2{
+    display: flex;
+    text-align: center;
+    padding-top: 10px;
+}
+.body4{
+    background-color: blue;
+    width: 32%;
+    height: 120px;
+    margin-right: 10px;
+}
+.body5{
+    background-color: rebeccapurple;
+    width: 32%;
+    height: 120px;
+    margin-right: 10px;
+}
+.body6{
+    background-color: red;
+    width: 32%;
+    height: 120px;
+}
+.bodyright{
+    padding-left: 10px;
+    padding-top: 10px;
+    text-align: center;
+}
+.can{
+    background-color: rosybrown;
+    width: 250px;
+    height: 170px;
+}
+.chart{
+    background-color: gray ;
+    width: 250px;
+    height: 170px;
+}
+.map{
+    background-color: darkcyan;
+    width: 250px;
+    height: 170px;
+}
+.fooder{
+    background-color: darkgrey;
+    height: 100px;
+    text-align: center;
+   margin-top: 10px;
+}
