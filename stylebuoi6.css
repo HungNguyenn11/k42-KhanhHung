@@ -1,0 +1,35 @@
+.all{
+    display: flex;
+}
+.a{
+    margin-right: 30px;
+}
+.b{
+    margin-right: 30px;
+}
+.c{
+    margin-right: 30px;
+}
+button{
+    color: black;
+    background-color: violet;
+}
+.a6{
+    display: flex;
+}
+.aa6{
+    margin-right: 10px;
+}
+.add{
+    display: flex;
+    margin-top: 20px;
+}
+.cong{
+    margin-right: 10px;
+}
+.tru{
+    margin-right: 10px;
+}
+.nhan{
+    margin-right: 10px;
+}

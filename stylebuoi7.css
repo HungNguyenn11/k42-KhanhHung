@@ -1,0 +1,35 @@
+.container{
+    width: 400px;
+    height: 400px;
+    margin: auto;   
+    flex-direction: column;
+    justify-content: space-between;
+}
+h1{
+    background-color: salmon;
+    text-align: center;
+}
+.results{
+    width: 400px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+
+}
+.result{
+    color: green;
+    text-align: center;
+}
+.buttons{
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    margin-top: 10px;
+}
+.button{
+    margin: 5px;
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: bold;
+    width: 32px;
+}

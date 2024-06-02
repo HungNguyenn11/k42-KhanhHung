@@ -1,0 +1,23 @@
+.contenner{
+    display: flex;
+}
+.left{
+    background-color: gray;
+    width: 30%;
+    height: 700px;
+}
+.left{
+    padding-left: 10px;
+}
+img{
+    padding-left: 40px;
+    padding-top: 20px;
+    border-radius: 100%;
+    width: 60%;
+    height: 200px;
+    background-color: goldenrod;
+  
+}
+.right{
+    padding-left: 20px;
+}
