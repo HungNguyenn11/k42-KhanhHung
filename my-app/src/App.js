@@ -4,7 +4,7 @@ import './App.css';
 function App() {
   return (
     <div className="conatiners">
-    <div className="Container" > 
+    <div className="container" > 
     {/* top page */}
         <div className="container_top">
           <p className="container_top_p"> Navbar
@@ -31,7 +31,8 @@ function App() {
             <p>sorrce text</p>
             <br></br>
             <p>
-              submit in cupia qui offcia des nilit arm id est laborurn consectectelus adipdfndsddsd, desc 
+              submit in cupia qui offcia des nilit arm id est laborurn consectectelus <br></br> 
+              adipdfndsddsd, desc  ajsbajsbasgajhbah svhasvhavsas 
             </p>
           </div>
 {/* footer page */}
