@@ -4,11 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="pratice.css">
-    <script src="./pactice.js"></script>
+    <script src="pactice.js"></script>
     <title>Document</title>
 </head>
 <body>
-    <input type="text" id="username" placeholder="nhap usename" onkeyup="CheckForm()">
-    <div id="result"></div>
+    <div class="container">
+        <form id="dataform">
+            <h1>ĐĂNG KÝ</h1>
+            <p class="p_1">Hãy đăng ký để tham gia chương trình của chúng tôi</p>
+            <span style="color: red; margin-left: 30px;">* Bắt buộc</span>
+            <div class="fullname">
+                <p class="fullname_1">
+                    Họ Tên <span style="color: red;">*</span>
+                </p>
+                <p class="fullname_2">
+                    xin hãy nhập số điện thoại của bạn!
+                </p>
+                <input type="text" class="ip" id="ip_fullname" placeholder="Câu trả lời của bạn" required>
+            </div>
+            <div class="email">
+                <div class="email_1">
+                    <p>Email <span style="color: red;">*</span></p>
+                    <input type="text" class="ip" id="ip_email" placeholder="Câu trả lời của bạn" required>
+                </div>
+            </div>
+            <div class="phonenumber">
+                <p class="phonenumber_1">
+                    Số điện thoại <span style="color: red;">*</span>
+                </p>
+                <p class="phonenumber_2">
+                    xin hãy nhập số điện thoại của bạn!
+                </p>
+                <input type="number" class="ip" id="ip_phonenumber" placeholder="Câu trả lời của bạn" required>
+            </div>
+            <div class="another">
+                <p>Nội dung khác</p>
+                <textarea placeholder="Câu trả lời của bạn" id="ip_another"></textarea>
+            </div>
+            <br>
+            <input type="submit" class="send" name="Gửi" onclick="Send()">
+        </form>
 </body>
 </html>

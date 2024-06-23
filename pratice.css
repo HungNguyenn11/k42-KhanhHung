@@ -1,74 +1,86 @@
-/* table{
-   font-family: Arial, Helvetica, sans-serif;
-   border-collapse: collapse;
-   width: 100%;
-}
-td, th {
-    border: 1px solid  #dddddd; 
-    text-align: left;
-    padding: 20x;
-}
-tr:nth-child(even) {
-    background-color: #dddddd;
-} */
-/* #ab6{
-    display: flex;
-} */
-#aa{
-    background-color: aquamarine;
-    padding-left: 20px;
+.container{
+    background-color: rgb(250, 236, 236);
     padding-top: 20px;
     padding-bottom: 20px;
-    padding-right: 20px;
 }
-#formin{
-    background-color: white;
-
-}
-#a6{
-    background-color: red;
-    color: white;
-}
-#ab6{
-    display: flex;
-}
-#b6 {
-    color: blue;
-}
-#bbc6{
-    padding-left: 10px;
-}
-#bc6{
-margin-top: 20px;
-margin-left: 20px;
-color: red;
-}
-#c6{
+form{
+    margin-left: 50px;
     margin-top: 20px;
-    margin-bottom: 10px;
+    margin-right: 400px;
+    margin-left: 400px;
+    background-color: white;
+    border: hidden;
+    border-radius: 5%;
 }
-c6:hover{
-    color: black;
+h1{
+    margin-left: 30px;
+    margin-top: 10px;
+    padding-top: 30px;
 }
-#a77{
-    display: flex;
+.p_1{
+    margin-left: 30px;
+    color: rgb(170, 167, 167);
 }
-#a7{
-    background-color: bisque;
+.ip{
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
+    border-color: gray;
+    width: 500px;
+    height: 30px;
 }
-#h17{
-    color: blue;
-    background-color: aquamarine;
+.fullname{
+    margin-left: 30px;
 }
-#aa7{
-    color: blue;
+.fullname_1{
+    font-size: 1.2em;
+    font-weight: bold;
+    height: 1px;
 }
-#b7{
-    margin-top: 15px;
-    margin-left: 5px;
+.fullname_2{
+    color: rgb(161, 160, 160);
 }
-#c7{
-    margin-top: 15px;
+.email{
+    margin-left: 30px;
 }
+.email_1{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.phonenumber{
+    margin-left: 30px;
+}
+.phonenumber_1{
+    font-size: 1.2em;
+    font-weight: bold;
+    height: 2px;
+}
+.phonenumber_2{
+    color: rgb(170, 169, 169);
+}
+.another{
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-left: 30px;
+}
+textarea{
+    width: 500px;
+    height: 100px;
+    border-radius: 5%;
+    border: inset;
+}
+.send{
+    background-color: rgb(63, 63, 243);
+    color: white;
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    text-align: center;
+    border-color: white;
+    border-radius: 10%;
+}
+ 
 
 
+  
