@@ -5,15 +5,16 @@
 }
 .container{
     color: white;
-    padding-top: 20px;
-    padding-bottom: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 .container_top{
     background-color: rgb(146, 134, 134);
     height: 60px;
 }
 .container_top:hover{
-    background-color: rgb(109, 109, 109);
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #dd9494;
 }
 .container_top_p{
     color: rgb(255, 255, 255);
@@ -36,7 +37,8 @@
     background-color: rgb(146, 134, 134);
 }
 .container_mid_left_img:hover{
-    background-color: rgb(109, 109, 109);
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #d4e283;
 }
 .container_mid_right_img{
     width: 100%;
@@ -44,7 +46,8 @@
     background-color: rgb(146, 134, 134);
 }
 .container_mid_right_img:hover{
-    background-color: rgb(109, 109, 109);
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #88d4e7;
 }
 .footer{
     text-align: center;
@@ -54,5 +57,6 @@
     height:60px;
 }
 .footer:hover{
-    background-color: rgb(109, 109, 109);
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #ae6ef7;
 }

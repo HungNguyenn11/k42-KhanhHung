@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="conatiners">
     <div className="container" > 
-    {/* top page */}
+{/* top page */}
         <div className="container_top">
           <p className="container_top_p"> Navbar
              <span className="container_top_span"> link </span> 

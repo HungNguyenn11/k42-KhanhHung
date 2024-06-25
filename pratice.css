@@ -70,7 +70,7 @@ textarea{
     border: inset;
 }
 .send{
-    background-color: rgb(63, 63, 243);
+    background-color: rgb(61, 128, 252);
     color: white;
     margin-left: 30px;
     margin-top: 10px;
@@ -79,7 +79,11 @@ textarea{
     text-align: center;
     border-color: white;
     border-radius: 10%;
+    color: transparent;
+    background-clip: text;
 }
+
+
  
 
 
